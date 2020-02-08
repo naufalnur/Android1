@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wa" />
+
+    <ScrollView
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/line1"
+                android:src="@drawable/a"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_toRightOf="@id/line1"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Nawnaw"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_toRightOf="@id/line1"
+                android:layout_below="@id/text3"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Ada"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line2"
+                android:layout_below="@id/line1"
+                android:src="@drawable/b"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_toRightOf="@id/line2"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Tatang"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="125dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_toRightOf="@id/line2"
+                android:layout_below="@id/text5"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Tidak Ada"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line3"
+                android:layout_below="@id/line2"
+                android:src="@drawable/c"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_toRightOf="@id/line2"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Budi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="220dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_toRightOf="@id/line3"
+                android:layout_below="@id/text7"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Swing~"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line4"
+                android:layout_below="@id/line3"
+                android:src="@drawable/d"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_toRightOf="@id/line4"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Tomi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="315dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_toRightOf="@id/line4"
+                android:layout_below="@id/text9"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Tidak Ada"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line5"
+                android:layout_below="@id/line4"
+                android:src="@drawable/f"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_toRightOf="@id/line5"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Dudung"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="410dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_toRightOf="@id/line5"
+                android:layout_below="@id/text11"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Libur Panjang"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line6"
+                android:layout_below="@id/line5"
+                android:src="@drawable/g"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_toRightOf="@id/line6"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Yulia"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="505dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_toRightOf="@id/line6"
+                android:layout_below="@id/text13"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Tidak Ada"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line7"
+                android:layout_below="@id/line6"
+                android:src="@drawable/h"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_toRightOf="@id/line7"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Heri"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="600dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_toRightOf="@id/line7"
+                android:layout_below="@id/text15"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Ada"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line8"
+                android:layout_below="@id/line7"
+                android:src="@drawable/i"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_toRightOf="@id/line8"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Yanti"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="695dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_toRightOf="@id/line8"
+                android:layout_below="@id/text17"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Ada"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line9"
+                android:layout_below="@id/line8"
+                android:src="@drawable/j"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_toRightOf="@id/line9"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Yanto"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="790dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text20"
+                android:layout_toRightOf="@id/line9"
+                android:layout_below="@id/text19"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Sibuk"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/line10"
+                android:layout_below="@id/line9"
+                android:src="@drawable/a"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/text21"
+                android:layout_toRightOf="@id/line10"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Heru"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="885dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/text22"
+                android:layout_toRightOf="@id/line10"
+                android:layout_below="@id/text21"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Sibuk Buangett~"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
